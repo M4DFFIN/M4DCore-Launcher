@@ -2,7 +2,7 @@
     "name": "M4DCore-Launcher",
     "preductname": "M4DCore Launcher",
     "version": "1.0.3",
-    "description": "Lanzador de Minecraft para el servidor de M4DCore",
+    "description": "Launcher M4DCore",
     "main": "src/app.js",
     "author": {
         "name": "M4DFFIN, Inc.",
@@ -12,7 +12,7 @@
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/M4DFFIN/M4DCore-Launcher/refs/heads/main/src/assets/images/icon.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -37,6 +37,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/M4DFFIN/M4DCore-Launcher.git"
     }
 }
